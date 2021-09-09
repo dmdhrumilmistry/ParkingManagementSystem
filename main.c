@@ -124,7 +124,8 @@ static void MX_GPIO_Init(void)
 *******************************/
 void LCD_init(void){
 	LCD(0x38, 0); 				// set Lcd to 2 lines 5*7 matrix 
-	LCD(0x0C, 0);					// Display on, cursor off
+	//LCD(0x0C, 0);					// Display on, cursor off
+	LCD(0x0E, 0);					// Display on cursor blinking
 	LCD(0x06, 0);					// Increment cursor in right direction
 	LCD(0x01, 0);					// Clear Display Screen
 	LCD(0x80, 0);					// Force Cursor to the beginning of LCD
