@@ -38,16 +38,18 @@ int main(void)
   {
 		// Move cursor to line 1
 		LCD_cursor(1, 0);
-		LCD_print("THIS is TEST", 0);
-		
+		LCD_print("PARK AT LOCATION:", 0);
 		HAL_Delay(250);
 	
-		LCD_print("ALL is WELL, HARRISON WELLS", 0);
+		// Move cursor to line 2
+		LCD_cursor(2, 0);
+		LCD_print("SECTOR A ", 0);
+		HAL_Delay(750);
 		
+		// clear screen
 		LCD_clear();
-		HAL_Delay(100);
   }
- 
+
 	/* End of Main */
 }
 
