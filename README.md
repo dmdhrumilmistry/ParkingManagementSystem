@@ -29,8 +29,11 @@
 - Create an issue
 - Fork the repo, update script and create a Pull Request
        
-       
- ### Connect with me on:
+### [License](https://github.com/dmdhrumilmistry/SmartParkingManagementSystem/blob/main/LICENSE)
+- MIT License
+
+
+### Connect with me on:
   
   <p align ="left">
     <a href = "https://github.com/dmdhrumilmistry" target="_blank"><img src = "https://img.shields.io/badge/Github-dmdhrumilmistry-333"></a>
