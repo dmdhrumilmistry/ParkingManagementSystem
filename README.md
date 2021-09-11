@@ -12,7 +12,8 @@
 
 ![Pin Layout](https://github.com/dmdhrumilmistry/SmartParkingManagementSystem/blob/main/.images/STM32F103C6Tx_Pinouts.png?raw=True)
 
-
+### Project Simulation Demonstration
+[![Youtube Video](https://github.com/dmdhrumilmistry/SmartParkingManagementSystem/blob/main/.images/YoutubeDemo.png?raw=True)](https://www.youtube.com/watch?v=Nd3685FGHyo)
 ### Tools Used
 
 1. ``STM32CubeMX`` - To setup GPIO pins for usage
@@ -22,7 +23,6 @@
 3. ``Proteus`` - To simulate the ckt
 
 > Note all files for this project are available in `main` branch 
-
 
 
 ### Have any Ideas 💡 or issue
