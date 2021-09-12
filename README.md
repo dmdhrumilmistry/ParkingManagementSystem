@@ -4,6 +4,13 @@
 
 - Project is using **STM32** to control various actions like sensing, searching for empty location and displaying result.
 
+
+### Block Diagram
+![Block Diagram](https://github.com/dmdhrumilmistry/SmartParkingManagementSystem/blob/main/.images/Block_Diagram/Smart%20Parking%20Management%20System%20-%20Block%20Diagram%20with%20Supplies%20-%20colored.png?raw=True)
+
+
+### Circuit Diagram
+
 ![SPMS Circuit Diagram](https://github.com/dmdhrumilmistry/SmartParkingManagementSystem/blob/main/.images/CktDiagram.png?raw=True) 
 
 - Infrared Sensor is used to sense the automobile's prescence. The IR sensor at the entry point triggers STM32 to search for empty locations where customers can park their automobile.
@@ -12,8 +19,11 @@
 
 ![Pin Layout](https://github.com/dmdhrumilmistry/SmartParkingManagementSystem/blob/main/.images/STM32F103C6Tx_Pinouts.png?raw=True)
 
+
 ### Project Simulation Demonstration
+
 [![Youtube Video](https://github.com/dmdhrumilmistry/SmartParkingManagementSystem/blob/main/.images/YoutubeDemo.png?raw=True)](https://www.youtube.com/watch?v=Nd3685FGHyo)
+
 ### Tools Used
 
 1. ``STM32CubeMX`` - To setup GPIO pins for usage
