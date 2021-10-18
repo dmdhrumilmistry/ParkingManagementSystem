@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: D M, DMSec, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.35.0.2
+Toolchain Path:  E:\SOFT_INSTALLED\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\MyCkts\STM32_MX\STM32F401CC\PaMS\MDK-ARM\PaMS.uvprojx
+Project File Date:  10/18/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\SOFT_INSTALLED\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'PaMS'
+assembling startup_stm32f401xc.s...
+compiling stm32f4xx_hal_tim.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling main.c...
+../Core/Src/main.c(180): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, cmd);
+../Core/Src/main.c(183): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0,  data & 0x01 );
+../Core/Src/main.c(184): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, (data>>1) & 0x01 );
+../Core/Src/main.c(185): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, (data>>2) & 0x01 );
+../Core/Src/main.c(186): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, (data>>3) & 0x01 );
+../Core/Src/main.c(187): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, (data>>4) & 0x01 );
+../Core/Src/main.c(188): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, (data>>5) & 0x01 );
+../Core/Src/main.c(189): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, (data>>6) & 0x01 );
+../Core/Src/main.c(190): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, (data>>7) & 0x01 );
+../Core/Src/main.c: 9 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_exti.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+linking...
+Program Size: Code=3890 RO-data=454 RW-data=20 ZI-data=1644  
+FromELF: creating hex file...
+"PaMS\PaMS.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_PaMS
+  E:\SOFT_INSTALLED\Keil_v5\ARMPacks\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  E:\SOFT_INSTALLED\Keil_v5\ARMPacks\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
